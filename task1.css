@@ -1,0 +1,53 @@
+h1{
+    font-family:'Montserrat', sans-serif;
+    font-size:3rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 0;
+}
+.container{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 300px;
+    background-color: blanchedalmond;
+    background-image: url("bg.png");
+}
+.input{
+    width: 50%;
+    height: 2.7rem;
+}
+.middle{
+    padding-top: 20px;
+}
+.list{
+    padding-top:20px;
+}
+
+#items{
+    text-align: left;
+}
+@media (min-width:1366px){
+    .list{
+        padding: 20px 245px;
+    }
+}
+@media (max-width:500px){
+    .input{
+        width:86%;
+    }
+}
+.close{
+    color:red;
+}
+.close :hover{
+    color:red;
+}
+.list-group{
+    color: green;
+}
+.list ul li .strike{
+    text-decoration: line-through;
+    color:green;
+}
+
+
